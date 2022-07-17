@@ -20,7 +20,7 @@ bu isimleri bir list olarak döndüren bir method yaz.*/
         while (true) {
             System.out.println("isim giriniz");
             String str = scan.next();
-            if (str.equals("Q")) {
+            if (str.equalsIgnoreCase("Q")) {
                 break;
             } else {
                 arr.add(str);
@@ -33,6 +33,6 @@ bu isimleri bir list olarak döndüren bir method yaz.*/
     }
     }
 
-}
+
 
 
